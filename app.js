@@ -14,7 +14,7 @@ const productsRoutes = require('./api/routes/products');
 const ordersRoutes = require('./api/routes/orders');
 const employeesRoutes = require('./api/routes/employees');
 
-mongoose.connect('mongodb+srv://FarahFTF:' + process.env.MONGO_PASS + '@cluster0.tt9cayv.mongodb.net/grocerydb');
+mongoose.connect('mongodb+srv://Far*****:' + process.env.MONGO_PASS + '@cluster0.tt9cayv.mongodb.net/grocerydb');
 mongoose.Promise = global.Promise;
 
 app.use(morgan('dev'));
